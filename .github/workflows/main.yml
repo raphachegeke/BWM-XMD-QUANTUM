@@ -28,5 +28,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Start application
-        run: npm start
+      - name: Start app briefly
+        run: npm run start:ci
