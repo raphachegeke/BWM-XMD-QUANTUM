@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "start:ci": "node server.js && echo 'Done'"
     "dev": "nodemon index.js",
     "test": "node index.js",
     "c": "tsc",
